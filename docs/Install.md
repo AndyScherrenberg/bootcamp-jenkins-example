@@ -61,7 +61,7 @@ You can either click the java War file or select a version to your liking from t
 
 - Run Docker Command "run docker pull jenkins"
 - Expose a container, exposing it on port
-  - "docker run -d -p 49001:8080 -v __LOCAL PERSISTANT PATH__/jenkins:/var/jenkins_home:z -t jenkins"
+  - "docker run -d -p 49001:8080 -v __LOCAL PERSISTANT PATH or use $PWD__/jenkins:/var/jenkins_home:z -t jenkins"
   - for more info click [here](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+with+Docker)
 
 #### Mac
