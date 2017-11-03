@@ -57,7 +57,7 @@ Since this bootcamp uses git it is mandatory to have a github account. If you al
 - Go to [Github](http://www.github.com) and create a user account.
 - go to [the bootcamps repo](https://github.com/tsteenbakkers/bootcamp-jenkins-example)
 - Fork the repository into your own account.
-- clone the repo locally
+- clone the repo locally. (if internet is shitty you can choose to just use the /MasterOnlyCode branch. It contains the instructions you are reading now without the images and the codebase needed for the bootcamp.)
 
 if you're unsure how to use GitHub it is advised to do the [Hello World](https://guides.github.com/activities/hello-world/) course. Or [check out the video guides](https://www.youtube.com/githubguides)
 the actions you need to focus on are
@@ -70,7 +70,9 @@ or ask one of the instructors to help out
 
 ### Local repo instead of remote repo
 
-instead of committing and pushing the changes into a forked reporsitory you can also choose just to clone the repo locally.
+instead of committing and pushing the changes into a forked reporsitory you can also choose just to clone the repo locally. This can be done if internet is only available limited.
+
+(if internet is shitty you can choose to just use the /MasterOnlyCode branch. It contains the instructions you are reading now without the images and the codebase needed for the bootcamp.)
 
 However instead of the repository url shown in the guide you will need to change the repository url to a local variant.
 
