@@ -50,6 +50,8 @@ You can either click the java War file or select a version to your liking from t
 
 #### Java
 
+- Download LTS *.war file from [Jenkins.io](https://jenkins.io/download/)
+- (optional) download JRE from [oracle.com](http://www.oracle.com/technetwork/java/javase/downloads/jre9-downloads-3848532.html) 
 - Run Java Runtime Environment
 - use command "java -jar jenkins.war"
 
@@ -59,16 +61,14 @@ You can either click the java War file or select a version to your liking from t
 
 - Run Docker Command "run docker pull jenkins"
 - Expose a container, exposing it on port
-  - "docker run -d -p 49001:8080 -v $PWD/jenkins:/var/jenkins_home:z -t jenkins"
+  - "docker run -d -p 49001:8080 -v __LOCAL PERSISTANT PATH__/jenkins:/var/jenkins_home:z -t jenkins"
   - for more info click [here](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+with+Docker)
 
 #### Mac
 
 [../Back to ToC](#table-of-contents)
 
-Mac Users can use the outdated Mac OS App
-
-- follow instruction from [stisti on GitHub](https://github.com/stisti/jenkins-app)
+Mac Users can best follow the Java instructions
 
 #### Windows
 

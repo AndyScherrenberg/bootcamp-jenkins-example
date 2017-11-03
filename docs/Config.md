@@ -26,6 +26,8 @@ The gui will present you with a path and file you need to open.
 
 In this file you will find a token string which needs to be copied into the Jenkins GUI.
 
+(note: For Docker users this hashed key will also be printed in your console when you start the docker container. Alternatively you can check you local persistant path and look for the file mentioned in the image.)
+
 
 ## Install Plugins
 
